@@ -1,0 +1,169 @@
+.border{
+    border: solid yellowgreen 5px;
+    outline: solid red 5px;
+}
+.background-image{
+background-image: url(https://tse1.mm.bing.net/th?id=OIP.30WZerav-f_yp03RP5fhoQHaEK&pid=Api&rs=1&c=1&qlt=95&w=218&h=122);
+background-size: 100%;
+
+}
+
+.first-container{
+    display: flex;
+    font-style: italic;
+    font-weight: bolder;
+   
+    
+}
+.container-item{
+    background-color: black;
+    border: 5px solid red;
+    color: white;
+    margin: 20px;
+    border-radius: 45px;
+}
+.first{ 
+    padding: 10px 5px 30px;
+    text-align: center;
+    height: 80px;
+    width: 650px;
+    font-size: xx-large;
+}
+.second{margin-top: 28px;
+margin-left: -155px;
+/* margin-right: 100; */
+text-align: center;
+padding: 20px 20px 5px 150px;
+height: 25px;
+width: 500px;
+font-size: 20px;
+}
+.third{ margin-left: 350px;
+padding: 5px 30px 1px 30px;
+height: 120px;
+width: 450px;
+font-size: 20px;
+text-align: center;
+
+}
+.second-container{
+display: flex;
+/* margin-top: 200px; */
+}
+.circle{
+border: solid gray 3px;
+border-radius: 50%;
+text-align: center;
+padding-top: 100px;
+background-color: darkgreen;
+font-weight: bolder;
+font-size: larger;
+height: 250px;
+width: 350px;
+margin-top: 200px;
+margin-left: 50px;
+text-decoration: underline;
+}
+.form{
+border: dashed red 10px;
+/* text-align: center; */
+margin-left: 350px;
+width: 500px;
+color: red;
+}
+label{ 
+color: red;
+font-size: 20px;
+}
+.menu{
+border: 5px solid red;
+background-color: black;
+color: white;
+border-radius: 100px;
+height: 50px;
+width: 450px;
+text-align: center;
+padding: 20px 70px 20px 70px;
+font-size: 50px;
+font-weight: bolder;
+font-style: italic;
+margin-left: 450px;
+margin-top: 10px;
+
+
+}
+.second-cont{
+display: flex;
+margin-top: 40px;
+flex-flow: wrap;
+/* justify-content: space-between; */
+
+
+
+
+}
+.starters{
+border: solid green 2px;
+background-color: aqua;
+color: blue;
+text-align: center;
+height: 270px;
+width: 320px;
+border-radius: 15px;
+margin-left: 150px;
+
+}
+.south{border: solid green 2px;
+background-color: aqua;
+color: blue;
+text-align: center;
+height: 280px;
+width: 320px;
+border-radius: 15px;
+margin-left: 100px;
+
+}
+.Indian{
+border: solid green 2px;
+background-color: aqua;
+color: blue;
+text-align: center;
+height: 280px;
+width: 320px;
+border-radius: 15px;
+margin-left: 100px;
+margin-right: 100px;
+}
+.Rice{
+border: solid green 2px;
+background-color: aqua;
+color: blue;
+text-align: center;
+height: 280px;
+width: 320px;
+border-radius: 15px;
+margin-left: 150px;
+margin-top: 40px;
+}
+.Tandoori{
+border: solid green 2px;
+background-color: aqua;
+color: blue;
+text-align: center;
+height: 280px;
+width: 320px;
+border-radius: 15px;
+margin-top: 40px;
+margin-left: 100px;
+}
+.Bever{
+border: solid green 2px;
+background-color: aqua;
+color: blue;
+text-align: center;
+height: 280px;
+width: 320px;
+border-radius: 15px;
+margin-top: 40px;
+margin-left: 100px;
+}
