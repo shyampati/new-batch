@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.welcome{ border: 5px solid red;
+text-align: center;
+margin: 0px;
+width: 300px;
+line-height: 35px;
+font-style: italic;
+border-radius: 10px;
+padding: 20px 40px;
+background-color: white;
+font-weight: 900;
+color: maroon;
+position: relative;
+left: 35%;
+font-size: 25px;
+text-shadow: 2px 2px 5px maroon;
+box-shadow: 5px 5px #3a4792be;
+}
+.main-body{
+    border: green solid 5px;
+    padding: 5px;
+height: 700px;
+/* background-color: aqua; */
+}
+.box{
+    border: solid red 5px;
+    /* border-color: seashell; */
+    background-color: white;
+    width: 250px;
+    /* text-align: center; */
+    /* font-size: 25px; */
+    height: 260px;
+    text-shadow: 2px 2px 5px maroon;
+    box-shadow: maroon 5px 5px;
+    border-radius: 15px;
+}
+.adress{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    top: 33%;
+    position: absolute;
+
+}
+.image{
+    text-align: center;
+    /* margin-top: 20px; */
+    /* padding-top: 20px; */
+    top: 33%;
+    left: 75%;
+     position: absolute;
+
+}
+.third{
+    top: 85%;
+    position: absolute;
+    /* text-align: center; */
+    font-size: 25px;
+    font-weight: bolder;
+}
+.fourth{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.rate{
+    text-align: center;
+}
+.submit{
+    text-align: center;
+    background-color: red;
+    border-radius: 25px;
+}
+.img{
+    /* padding-top: 50px; */
+    /* border: 2px black solid; */
+    padding-top: 50px;
+}
+.end{
+    text-align: center;
+    border: 10px solid maroon;
+    /* font-style:italic; */
+    width: 1000px;
+    margin:  33px auto;
+    /* color: white; */
+    background-color: aqua;
+
+}
+.item{
+    border: 2px solid gray;
+margin: 12px 3px;
+padding: 12px 3px;
+background-color: rgb(189, 189, 98);
+font-style: italic;
+}
+.fruits{
+    position: relative;
+    float: left;
+    width: 49%;
+    /* margin-left: 5px; */
+}
+.vegetable{
+    position: relative;
+    float: left;
+    width: 49%;
+    /* margin-left: 5px; */
+}
+.other{
+    position: relative;
+    width:98%;
+    clear: left;
+    /* left: 25px; */
+    /* margin-right: 200px; */
+}
+.offer{
+    border: 7px solid rgb(231, 2, 2);
+background-color: rgb(156, 233, 79);
+border-radius: 15px;
+width: 500px;
+height: 80px;
+position: fixed;
+top: 480px;
+left: 380px;
+text-align: center;
+font-style: italic;
+color: rgb(177, 0, 0);
+box-shadow: 5px 5px maroon;
+}
+.Ex{
+    float: left;
+width: 300px;
+font-size: 25px;
+padding-top: 10px;
+font-weight: bolder;
+
+}
+.dis{ font-size: 20px;
+padding-top: 18px;
+font-weight: bold;}
