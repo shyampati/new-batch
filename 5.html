@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 4</title>
+    <style>
+        .first{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 20px;
+            display: inline-block;
+            animation-name: first-row;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+        }
+        @keyframes first-row{
+            0%{
+                transform: skewX(0deg);
+
+            }
+            25%{
+                transform: skewX(20deg);
+
+            }
+            75%{
+                transform: skewX(-20deg);
+
+            }
+            100%{
+                transform: skewX(0deg);
+
+            }
+        }
+        .second{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 20px;
+            background-color: black;
+            display: inline-block;
+            animation-name: second-row;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+        }
+        @keyframes second-row{
+            0%{
+                transform: skewY(0deg);
+
+            }
+            25%{
+                transform: skewY(20deg);
+
+            }
+            75%{
+                transform: skewY(-20deg);
+
+            }
+            100%{
+                transform: skewY(0deg);
+
+            }
+        }
+        .third{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 20px;
+            background-color: red;
+            display: inline-block;
+            animation-name: third-row;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+        }
+        @keyframes third-row{
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .fourth
+        {    height: 200px;
+            width: 200px;
+            background-color: aqua;
+            margin: 20px;
+            display: inline-block;
+
+        }
+        .f1{
+            background-color: blue;
+            animation-name: f1-row;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+        }
+        @keyframes f1-row{
+            50%{
+            transform: scaleY(50%);
+            }
+        }
+        .f2{background-color: cadetblue;
+            animation-name: f2-row;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+        }
+        @keyframes f2-row{
+            50%{
+                transform: scaleX(50%);
+            }
+        }
+        .f3{
+            background-color: chartreuse;
+            animation-name: f3-row;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+        }
+        @keyframes f3-row{
+            50%{
+                transform: rotate(100deg);
+            }
+        }
+        .list{
+            text-align: center;
+            margin: auto;
+  padding: auto;
+  width: 40%;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(230, 125, 146);">
+    <h1 style="text-align: center;">Try to replicate this</h1>
+    <ol class="list">
+        <li>
+            <div class="first"></div>
+            <div class="first"></div>
+            <div class="first"></div>
+        </li> <br> <br>
+        <li>
+            <div class="second"></div>
+            <div class="second"></div>
+            <div class="second"></div>
+        </li> <br> <br>
+        <li> 
+            <div class="third"></div>
+            <div class="third"></div>
+            <div class="third"></div>
+        </li> <br> <br>
+        <li>
+            <div class= " fourth f1 "></div>
+            <div class=" fourth f2"></div>
+            <div class=" fourth f3"></div>
+        </li>
+    </ol>
+    <a href="next.html">
+        <p style="font-size: xx-large; color: darkmagenta; text-align: center;" >Lets go and try another things</p>
+    </a>
+    
+</body>
+</html>
